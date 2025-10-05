@@ -2,5 +2,11 @@
 name = "encrypted_include"
 version = "0.1.0"
 edition = "2021"
+description = "Include AES encrypted binary assets into Rust projects at compile time"
+license = "MIT OR Apache-2.0"
 
 [dependencies]
+aes = "0.8"
+cbc = "0.1"
+cipher = { version = "0.4", features = ["block-padding"] }
+hex = "0.4"
