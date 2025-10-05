@@ -1,0 +1,14 @@
+[package]
+name = "encrypted_include"
+version = "0.1.0"
+edition = "2021"
+description = "Include AES encrypted binary assets into Rust projects at compile time"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/dmitryvm1/encrypted_include"
+
+[dependencies]
+encrypted_include_macros = { path = "../encrypted_include_macros" }
+aes-gcm = "0.10"
+
+[dev-dependencies]
+# For integration tests

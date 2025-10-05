@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "encrypted_include",
+    "encrypted_include_macros",
+]
+resolver = "2"
