@@ -1,0 +1,15 @@
+[package]
+name = "encrypted_include_macros"
+version = "0.1.0"
+edition = "2021"
+description = "Proc macro implementation for encrypted_include"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2.0", features = ["full"] }
+quote = "1.0"
+proc-macro2 = "1.0"
+aes-gcm = "0.10"
+rand = "0.8"

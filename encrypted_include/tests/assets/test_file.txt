@@ -1,0 +1,2 @@
+Hello, World! This is a test file for encrypted_include.
+It contains multiple lines and various characters: 123, !@#$%^&*()
